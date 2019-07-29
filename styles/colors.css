@@ -1,0 +1,40 @@
+:root {
+  --main-brand-color: #1825aa;
+  --main-brand-color-shade-30: color-mod(var(--main-brand-color) shade(30%));
+  --main-brand-color-shade-50: color-mod(var(--main-brand-color) shade(50%));
+  --main-brand-color-tint-10: color-mod(var(--main-brand-color) tint(10%));
+  --main-brand-color-tint-30: color-mod(var(--main-brand-color) tint(30%));
+  --main-brand-color-tint-60: color-mod(var(--main-brand-color) tint(60%));
+
+  --accent-color: #F49712;
+
+  --neutral-color: #AAAAAA;
+  --neutral-color-shade-40: color-mod(var(--neutral-color) shade(40%));
+  --neutral-color-shade-70: color-mod(var(--neutral-color) shade(70%));
+  --neutral-color-tint-50: color-mod(var(--neutral-color) tint(50%));
+  --neutral-color-tint-90: color-mod(var(--neutral-color) tint(90%));
+
+  --background-color: white;
+
+  --tips-color: #6DED9E;
+  --important-color: #FFCC00;
+  --warning-color: #DE3249;
+  --info-color: #63c3d1;
+
+  /* derived */
+
+  --block-color: var(--neutral-color-tint-90);
+  --border-color: var(--neutral-color-tint-50);
+  --navigation-hover-color: var(--main-brand-color-tint-10);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+
+  --link-color: var(--accent-color);
+  --oneline-code-title-color: var(--main-brand-color-tint-30);
+  --reverse-bg-text-color: var(--background-color);
+  --secondary-text-color: var(--neutral-color);
+  --sidebar-text-color: var(--main-brand-color-tint-60);
+  --text-block-color: var(--neutral-color-shade-70);
+  --text-color: var(--neutral-color-shade-40);
+  --title-color: var(--main-brand-color-shade-30);
+}
+

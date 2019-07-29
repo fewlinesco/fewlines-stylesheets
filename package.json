@@ -1,0 +1,22 @@
+{
+  "name": "@fewlines/stylesheets",
+  "version": "1.0.0",
+  "description": "Shareable stylesheets used across Fewlines websites",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fewlinesco/fewlines-stylesheets.git"
+  },
+  "keywords": [],
+  "author": "Fewlines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fewlinesco/fewlines-stylesheets/issues"
+  },
+  "homepage": "https://github.com/fewlinesco/fewlines-stylesheets#readme",
+  "dependencies": {
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-custom-properties": "^9.0.2",
+    "postcss-import": "^12.0.1"
+  }
+}
