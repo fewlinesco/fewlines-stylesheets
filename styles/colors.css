@@ -9,10 +9,10 @@
   --accent-color: #F49712;
 
   --neutral-color: #AAAAAA;
-  --neutral-color-shade-40: color-mod(var(--secondary-text-color) shade(40%));
-  --neutral-color-shade-70: color-mod(var(--secondary-text-color) shade(70%));
-  --neutral-color-tint-50: color-mod(var(--secondary-text-color) tint(50%));
-  --neutral-color-tint-90: color-mod(var(--secondary-text-color) tint(90%));
+  --neutral-color-shade-40: color-mod(var(--neutral-color) shade(40%));
+  --neutral-color-shade-70: color-mod(var(--neutral-color) shade(70%));
+  --neutral-color-tint-50: color-mod(var(--neutral-color) tint(50%));
+  --neutral-color-tint-90: color-mod(var(--neutral-color) tint(90%));
 
   --background-color: white;
 
