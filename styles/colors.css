@@ -1,10 +1,19 @@
 :root {
   --main-brand-color: #1825aa;
+  --main-brand-color-shade-10: color-mod(var(--main-brand-color) shade(10%));
+  --main-brand-color-shade-20: color-mod(var(--main-brand-color) shade(20%));
   --main-brand-color-shade-30: color-mod(var(--main-brand-color) shade(30%));
+  --main-brand-color-shade-40: color-mod(var(--main-brand-color) shade(40%));
   --main-brand-color-shade-50: color-mod(var(--main-brand-color) shade(50%));
   --main-brand-color-tint-10: color-mod(var(--main-brand-color) tint(10%));
+  --main-brand-color-tint-20: color-mod(var(--main-brand-color) tint(20%));
   --main-brand-color-tint-30: color-mod(var(--main-brand-color) tint(30%));
+  --main-brand-color-tint-40: color-mod(var(--main-brand-color) tint(40%));
+  --main-brand-color-tint-50: color-mod(var(--main-brand-color) tint(50%));
   --main-brand-color-tint-60: color-mod(var(--main-brand-color) tint(60%));
+  --main-brand-color-tint-70: color-mod(var(--main-brand-color) tint(70%));
+  --main-brand-color-tint-80: color-mod(var(--main-brand-color) tint(80%));
+  --main-brand-color-tint-90: color-mod(var(--main-brand-color) tint(90%));
 
   --accent-color: #F49712;
 
