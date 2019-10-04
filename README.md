@@ -6,9 +6,9 @@ Shareable stylesheets used across Fewlines websites.
 
 ## Usage
 
-This package rely on `postcss-custom-properties`, `postcss-color-mod-function`, and `postcss-import` to work propertly.
+This package relies on `postcss-custom-properties`, `postcss-color-mod-function`, and `postcss-import` to work propertly.
 
-Just include the stylesheet your want to use like this:
+Just include the stylesheet you want to use like this:
 
 ```css
 @import "@fewlines/stylesheets/styles/colors.css";
