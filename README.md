@@ -8,11 +8,19 @@ Shareable stylesheets used across Fewlines websites.
 
 This package rely on `postcss-custom-properties`, `postcss-color-mod-function`, and `postcss-import` to work propertly.
 
-Just include the stylesheets your want to use like this:
+Just include the stylesheet your want to use like this:
 
 ```css
-@import "@fewlines/stylesheets/styles/colors.css"
+@import "@fewlines/stylesheets/styles/colors.css";
+@import "@fewlines/stylesheets/styles/fonts.css";
 ```
+Or you can include all our css in your project like this:
+```css
+@import "@fewlines/stylesheets/styles/fewlines.css";
+```
+
+## Test
+There is no automated testing here, but you can serve the folder and look at the `index.html` while you're making some changes in it.
 
 ## Contributing
 
